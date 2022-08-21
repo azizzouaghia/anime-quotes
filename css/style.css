@@ -1,0 +1,64 @@
+/* Fonts Start */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&display=swap');
+/* Fonts Ends */
+
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    font-family: 'Cairo',sans-serif;
+    background-color: #ecf0fe77;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+/*.container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("https://pic.re/image");
+    background-size: cover;
+    border-radius: 25px;
+    z-index: -1;
+    opacity: .4;
+}*/
+img {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.anime-name {
+    color: #e74c3c;
+    font-size: 40px;
+    font-weight: 600;
+}
+.quote {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.quote span {
+    font-size: 55px;
+    color: #c0392b;
+    margin: 0 4%;
+}
+.quote h5 {
+    font-size: 23px;
+    font-weight: 400;
+}
+.character-name h5{
+    margin-top: 10px;
+    color: #e67e22;
+    margin-left: 60%;
+    font-weight: 600;
+    font-size: 25px;
+}
+button {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    font-size: 20px !important;
+}
