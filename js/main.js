@@ -9,13 +9,12 @@ request.onreadystatechange = function (){
         animeQuote.innerHTML= quotes.quote;
         let characterName = document.querySelector(".character-name h5"); // Character Name
         characterName.innerHTML = `- ${quotes.character}`;
-        document.querySelector("button").onclick = ()=>{ // New Quote
-            location.reload();
-        }
         /* Info Fill Ends */
 }}
-request.open("GET", "https://animechan.vercel.app/api/random");
-request.send();
+document.querySelector("button").onclick = () => {
+    request.open("GET", "https://animechan.vercel.app/api/random");
+    request.send();
+};
 
 // Add The year
 let year = document.getElementById("rightsyear");
