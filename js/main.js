@@ -11,6 +11,8 @@ request.onreadystatechange = function (){
         characterName.innerHTML = `- ${quotes.character}`;
         /* Info Fill Ends */
 }}
+request.open("GET", "https://animechan.vercel.app/api/random");
+request.send();
 document.querySelector("button").onclick = () => {
     request.open("GET", "https://animechan.vercel.app/api/random");
     request.send();
