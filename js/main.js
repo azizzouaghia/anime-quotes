@@ -2,7 +2,7 @@ let request = new XMLHttpRequest();
 request.onreadystatechange = function (){
     if(this.readyState === 4 && this.status){
         let quotes = JSON.parse(this.responseText);
-        /* Info Fill Start*/
+        /* Info Fill Start */
         let animeName = document.querySelector(".anime-name"); // Anime Name
         animeName.innerHTML= quotes.anime;
         let animeQuote = document.querySelector(".quote h5"); // Anime Quote
@@ -12,9 +12,12 @@ request.onreadystatechange = function (){
         document.querySelector("button").onclick = ()=>{ // New Quote
             location.reload();
         }
-        /* Info Fill Ends*/
+        /* Info Fill Ends */
 }}
 request.open("GET", "https://animechan.vercel.app/api/random");
-request.send(); 
+request.send();
 
-
+// Add The year
+let year = document.getElementById("rightsyear");
+let date = new Date();
+year.innerHTML = date.getFullYear();
