@@ -1,5 +1,5 @@
 # anime-quotes
-An Anime Quotes WebSites.
+A Responsive Anime Quotes WebSites.
 
 #### Made using :
 - HTML5
@@ -10,4 +10,4 @@ An Anime Quotes WebSites.
 #### Review
 Link: [HERE](https://azizzouaghia.github.io/anime-quotes/)
 
-<img src="https://i.ibb.co/brk12Z2/download.png" width="550" height="350" />
+<img src="https://i.ibb.co/MsT3mfv/all-devices-white-2.png"/>
